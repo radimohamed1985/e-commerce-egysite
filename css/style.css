@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+  color: black;
+}
+.btn{
+  background-color: #ff5f13;
+  color: white;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  width: 150px;
+}
+h3,h2,h4,h5{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+/* topnav  #######################*/
+.top-nav{
+    background-color: #ff5f13;
+    width: 100%;
+    z-index: 3;
+    color: white;
+    height: 30px;
+          }
+
+          /* ############## navbar start ############################# */
+.navbar{
+    direction: rtl;
+    position: fixed;
+    width: 100%;
+}
+.navbar li{
+  margin: 10px;
+}
+@media (max-width:500px) {
+  .navbar{
+    direction: rtl;
+    position: absolute;
+    width: 100%;
+    margin-bottom: 200px;
+}
+}
+@media (max-width:900px) {
+  .navbar{
+    direction: rtl;
+    position: absolute;
+    width: 100%;
+    margin-bottom: 200px;
+}
+}
+
+.cat{
+  width: 1250px;
+  text-align: right;
+  position: absolute;
+  margin-right: -400px;
+  margin-left:-700px;
+}
+.catone{
+  width: 1250px;
+  text-align: right;
+  position: absolute;
+  margin-right: -400px;
+  margin-left:-800px;
+}
+.cattwo{
+  width: 1250px;
+  text-align: right;
+  position: absolute;
+  margin-right: -400px;
+  margin-left:-800px;
+}
+@media (max-width:500px) {
+ 
+  .cattwo{
+    width: 400px;
+    text-align: right;
+    margin: 0;
+  }
+}
+@media (max-width:1100px) {
+  .cattwo{
+    width: 700px;
+    text-align: right;
+    margin: 0;
+  }
+  .cat{
+    width: 700px;
+    text-align: right;
+    margin: 0;
+  }
+  .catone{
+    width: 700px;
+    text-align: right;
+    margin: 0;
+  }
+}
+
+@media (max-width:500px) {
+  .catone{
+    width: 400px;
+    text-align: right;
+    margin: 0;
+  }
+}
+
+@media (max-width:500px) {
+  .cat{
+    width: 400px;
+    text-align: right;
+    margin: 0;
+  }
+}
+
+
+/* first section start css */
+.Firstsection{
+  margin-top: 100px;
+ 
+}
+.Firstsection h2{
+  font-size:50px;
+  font-weight: bolder;
+}
+
+
+@media (max-width:500px) {
+  .Firstsection{
+    margin-top: 200px;
+  }
+}
+/* secand section start css */
+.Secandsection{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+/* third section start css */
+.Thirdsection{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.Thirdsection h2{
+  font-size:50px;
+  font-weight: bolder;
+}
+/* fourth section start css */
+.Fourthsection img{
+  margin:10px;
+}
+/* five section start css */
+.Fivesection{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.Fivesection img:hover{
+transform: scale(1.1);
+}
+/* seven section start css */
+.Sevensection{
+  margin-top: 40px;
+}
+/* footer section start css */
+.Footer{
+  direction: rtl;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color:whitesmoke;
+
+}
+.Footer li {
+  list-style-type: none;
+}
+ .right{
+  border-left: 3px solid gray;
+}
